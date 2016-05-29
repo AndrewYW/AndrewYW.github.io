@@ -11,6 +11,7 @@ email: andrewyw@andrewyw.me
 description: > # this means to ignore newlines until "baseurl:"
   Computer Science/Music Student at
   Rutgers University - New Brunswick
+  Class of 2017
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://andrewyw.me" # the base hostname & protocol for your site
 github_username:  AndrewYW
