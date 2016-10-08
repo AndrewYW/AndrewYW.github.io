@@ -3,27 +3,30 @@ layout: default
 title: Contact Info
 nav: contact
 ---
-<!-- First Photo Grid-->
+{% include contactstyle.html%}
+
+
+<form action="https://formspree.io/andrewwang39@gmail.com" method="POST">
 <div class="w3-row-padding">
-  <div class="w3-third w3-container w3-margin-bottom">
-    <img src="img_mountains.jpg" alt="Hello" style="width:100%" class="w3-hover-opacity w3-round">
-    <div class="w3-container w3-white">
-      <p><b>Name</b></p>
-      <p>Fill in name here!</p>
+  <div class="w3-quarter w3-container w3-margin-bottom"></div>
+  <div class="w3-quarter w3-margin-bottom">
+    <div class=" w3-round">
+      <input type="text" name="name" placeholder="Your name" required>
     </div>
   </div>
-  <div class="w3-third w3-container w3-margin-bottom">
-    <img src="img_lights.jpg" alt="I need" style="width:100%" class="w3-hover-opacity w3-round">
-    <div class="w3-container w3-white w3-round">
-      <p><b>Email</b></p>
-      <p>Fill in email here</p>
-    </div>
-  </div>
-  <div class="w3-third w3-container">
-    <img src="img_nature.jpg" alt="More images :(" style="width:100%" class="w3-hover-opacity w3-round">
-    <div class="w3-container w3-white">
-      <p><b>Text</b></p>
-      <p>What do you want to say to me nerd</p>
+  <div class="w3-quarter w3-container w3-margin-bottom">
+    <div class="w3-container w3-round">
+      <input type="email" name="email" placeholder="Your email" required>
     </div>
   </div>
 </div>
+<div class="w3-row-padding">
+  <div class="w3-quarter w3-container w3-margin-bottom"></div>
+  <div class="w3-half w3-container w3-margin-bottom">
+    <div class="w3-round w3-80height">
+      <textarea name = "text" placeholder="Your message"></textarea>
+      <input type="submit" value="Send">
+    </div>
+  </div>
+</div>
+</form>
