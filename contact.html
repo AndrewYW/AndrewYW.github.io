@@ -8,7 +8,7 @@ nav: contact
 
 <form action="https://formspree.io/andrewwang39@gmail.com" method="POST">
 <div class="w3-row-padding">
-  <div class="w3-quarter w3-container w3-margin-bottom"></div>
+  <div class="w3-quarter w3-container w3-section"></div>
   <div class="w3-quarter w3-margin-bottom">
     <div class=" w3-round">
       <input type="text" name="name" placeholder="Your name" required>
@@ -23,9 +23,11 @@ nav: contact
 <div class="w3-row-padding">
   <div class="w3-quarter w3-container w3-margin-bottom"></div>
   <div class="w3-half w3-container w3-margin-bottom">
-    <div class="w3-round w3-80height">
+    <div class="w3-round">
       <textarea name = "text" placeholder="Your message"></textarea>
       <input type="submit" value="Send">
+      <input type="hidden" name="_next" value="/thanks" />
+
     </div>
   </div>
 </div>
