@@ -1,23 +1,110 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+<title>Andrew Wang website home page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 
-<div class="home">
+<link rel="stylesheet" href="/lib/w3-theme-grey.css">
+<style>
+html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+.w3-sidenav a,.w3-sidenav h4 {font-weight:bold}
+</style>
+<body class="w3-dark-grey w3-content" style="max-width:1600px">
 
-  <h1 class="page-heading">Posts</h1>
+<!-- Sidenav/menu -->
+<nav class="w3-sidenav w3-collapse w3-theme w3-animate-left" style="z-index:3;width:300px;" id="mySidenav"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="https://scontent.fewr1-2.fna.fbcdn.net/v/t1.0-9/14225405_10208925561549358_2555190651809640364_n.jpg?oh=3a49521497be0aa0d6991465e487eebe&oe=5864EB53" style="width:45%;" class="w3-round"><br><br>
+    <h4 class="w3-padding-0"><b>Andrew Wang</b></h4>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  </div>
+  <a href="#" class="w3-padding w3-text-blue-grey">HOME</a>
+  <a href="pages/about.html" class="w3-padding">ABOUT</a>
+  <a href="#" class="w3-padding">PROJECTS</a>
+  <a href="#" class="w3-padding">CONTACT</a>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  <div class="w3-section w3-padding-top w3-large">
+    <a href="https://www.facebook.com/andrew.wang.9256" class="w3-hover-text-indigo w3-show-inline-block w3-round"><i class="fa fa-facebook-official"></i></a>
+    <a href="https://github.com/AndrewYW" class="w3-hover-text-light-blue w3-show-inline-block w3-round"><i class="fa fa-github"></i></a>
+    <a href="#" class="w3-hover-text-indigo w3-show-inline-block w3-round"><i class="fa fa-linkedin"></i></a>
+  </div>
+</nav>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<!-- Overlay effect when opening sidenav on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header class="w3-container">
+    <a href="#"><img src="https://scontent.fewr1-2.fna.fbcdn.net/v/t1.0-9/14225405_10208925561549358_2555190651809640364_n.jpg?oh=3a49521497be0aa0d6991465e487eebe&oe=5864EB53" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-opennav w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <h1><b>My Portfolio</b></h1>
+    <div class="w3-section w3-bottombar w3-padding-16">
+      <span class="w3-margin-right">Filter:</span>
+      <button class="w3-btn">ALL</button>
+      <button class="w3-btn w3-white"><i class="w3-margin-center"></i>Java</button>
+      <button class="w3-btn w3-white w3-hide-small"><i class="w3-margin-center"></i>Node.js</button>
+      <button class="w3-btn w3-white w3-hide-small"><i class="w3-margin-center"></i>Python</button>
+    </div>
+  </header>
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img_mountains.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity w3-round">
+      <div class="w3-container w3-white">
+        <p><b>Song Library</b></p>
+        <p>A small GUI application built using JavaFX and designed in Scene Builder. Assignment for my Software Methodology class. </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img_lights.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity w3-round">
+      <div class="w3-container w3-white w3-round">
+        <p><b>NJData</b></p>
+        <p>Project for Intro to Database and Info Management class. Web app for viewing election, population, and income, and estimates.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="img_nature.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity w3-round">
+      <div class="w3-container w3-white">
+        <p><b>More coming soon!</b></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 w3-theme">
+  <div class="w3-row-padding">
+    <div class="w3-rest">
+      <p>Copyright © Andrew Wang 2016</p>
+      <p>Powered by <a href="http://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+
+  </div>
+  </footer>
+
+<!-- End page content -->
 </div>
+
+<script>
+// Script to open and close sidenav
+function w3_open() {
+    document.getElementById("mySidenav").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+    document.getElementById("mySidenav").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
