@@ -340,3 +340,11 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 
 /* Personal changes and fixes*/
 .w3-bottom{position:bottom}
+
+
+/**Simple palette */
+.w3-green3 {color:#000 !important; background-color:#b4b8ab !important}
+.w3-bluedark {color:#fff !important; background-color:#153243 !important}
+.w3-bluelight {color:#fff !important; background-color:#284b63 !important}
+.w3-green2 {color:#000 !important; background-color:#f4f9e9 !important}
+.w3-green1 {color:#000 !important; background-color:#eef0eb !important}
