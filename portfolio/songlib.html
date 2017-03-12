@@ -3,8 +3,62 @@ layout: project
 title: Song Library
 ---
 
-<!-->Background: Song Library was the first project I completed in my Software Methodology course. It served as an introduction to some basic software concepts, such as UI, events, and design patterns.
+<!--Background: Song Library was the first project I completed in my Software Methodology course. It served as an introduction to some basic software concepts, such as UI, events, and design patterns.
+The goal was to create a small Java GUI that could do three functions:
+  - Display a list of songs by name, with the ability to select one song from the list
+  - Display the details of the selected song: name, artist, album, year.
+  - Add/Edit/Delete songs:
+    - Add: Add a new song to the list, requiring at least the name and artist. Duplicate name/artist combinations are not allowed.
+    - Edit: Change any of the fields of a selected song. Cannot conflict with duplicate name/artist combinations again.
+    - Delete: Delete any selected song.
+    - Every action will have a confirmation appear before making the final change.
+
+The list of songs is persistent across different sessions of running the program.
 
 Technology used: Java, JavaFX, Eclipse IDE, Scene Builder layout tool
 Concepts: Event-driven GUI programming, MVC design pattern
-<-->
+View code: https://github.com/AndrewYW/SongLibrary -->
+<!-- First row-->
+<div class="w3-row-padding w3-container">
+  <div class="w3-twothird w3-margin-bottom">
+    <h3>Background</h3>
+    <p>Song Library was the first project I completed in my Software Methodology course. It served as an introduction to some basic software concepts, such as UI, events, and design patterns.
+    The goal was to create a small Java GUI that could do three functions:</p>
+    <ul style="list-style-type:square">
+      <li>Display a list of songs by name, with the ability to select one song from the list. The list of songs is persistent across different sessions of running the program.</li>
+      <li>Display the details of the selected song: name, artist, album, year.</li>
+      <li>Add/Edit/Delete songs:
+        <ul style="list-style-type:circle">
+          <li>Add: Add a new song to the list, requiring at least the name and artist. Duplicate name/artist combinations are not allowed.</li>
+          <li>Edit: Change any of the fields of a selected song. Cannot conflict with duplicate name/artist combinations again.</li>
+          <li>Delete: Delete any selected song.</li>
+          <li>Every action will have a confirmation appear before making the final change.</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="w3-third w3-margin-bottom">
+    <img src="/lib/images/songlib/slib1"></img>
+    <a class="w3-block w3-bluelight" href="https://github.com/AndrewYW/SongLibrary">Source Code</a>
+  </div>
+</div>
+<!-- Second row-->
+<div class="w3-row-padding w3-container">
+  <div class="w3-margin-bottom w3-half">
+    <h5>Technology used:</h5>
+    <ul style="list-style-type:square">
+      <li>Java</li>
+      <li>JavaFX</li>
+      <li>Eclipse IDE</li>
+      <li>Scene Builder layout tool</li>
+    </ul>
+  </div>
+  <div class="w3-margin-bottom w3-half">
+    <h5>Concepts covered:</h5>
+    <ul>
+      <li>Event-driven GUI programming</li>
+      <li>MVC Design Pattern</li>
+      <li>Comparable Interface</li>
+    </ul>
+  </div>
+</div>
