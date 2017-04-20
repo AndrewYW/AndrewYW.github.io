@@ -47,7 +47,7 @@ title: ASCII Chess
 
 Design:
 The program is handled entirely through the eclipse terminal. As such, we opted to parse strings with the Java Scanner, and then convert them into "move" objects to use throughout the program. The bulk of the code
-lies within a Game class, which is called by the main Chess class.
+lies within a Game class, which is called by the main Chess class. In the Game class, each Move object is used as the input in a state machine
 
 Moves and parsing strings:
 String inputs into the program follow the form "FileRank FileRank", where the first FileRank refers to the coordinates of the piece to be moved, and the second to the end coordinate. There are a few exceptions to this

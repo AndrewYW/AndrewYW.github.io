@@ -2,13 +2,13 @@
 layout: project
 title: NJData
 ---
-<!-- First row-->
+<!-- First row -->
 <div class="w3-row-padding w3-container">
   <div class="w3-twothird w3-margin-bottom w3-container">
     <h3>Background</h3>
     <p>NJData was a project completed over the course of a class I took, Principles of Information and Data Management. The class covered database concepts, focusing on relational database concepts using SQL and MySQL.
       NJData focuses on New Jersey's presidential election voting history from 2004 to 2016, covering a variety of factors including gender, GDP, population growth. The end result is a small web application
-      hosted on a DigitalOcean Droplet VPS, using the Python Flask framework, running the SQL queries on a MySQL server.
+      hosted on an Ubuntu cloud server running a LAMP stack.
     </p>
 
     <div class="w3-row-padding w3-container">
@@ -18,11 +18,11 @@ title: NJData
           <ul style="list-style-type:square">
             <li>Python</li>
             <li>Python Flask</li>
-            <li>Flask-MySQLdb</li>
-            <li>Ubuntu VPS</li>
+            <li>Ubuntu cloud server</li>
             <li>Apache HTTP server</li>
             <li>WSGI</li>
             <li>MySQL</li>
+            <li>MySQL Workbench</li>
           </ul>
         </div>
         <div style="float: right; width: 50%;">
@@ -46,18 +46,126 @@ title: NJData
         </ul>
       </div>
     </div>
-    
+
   </div>
   <div class="w3-third w3-margin-bottom w3-container w3-center">
     <img src="/lib/images/njdata/njdata.png" style="width:100%"></img>
     <a class="w3-btn w3-bluelight" href="https://github.com/AndrewYW/NJData">View Source Code</a>
   </div>
 </div>
-<!-- Second row-->
 
-
-<!-- Third row-->
+<!-- Second row process/desc.-->
 <div class="w3-row-padding w3-container">
-  <div class="w3-margin-bottom">
+  <div class="w3-margin-bottom w3-third w3-container">
+
+  </div>
+  <div class="w3-margin-bottom w3-third w3-container">
+    <h5>Preface</h5>
+    <p>New Jersey has been a historically Democratic voting state in presidential elections since the 1992 election. </p>
+  </div>
+  <div class="w3-margin-bottom w3-third w3-container">
+    Process
+    Work on the project was split into three phases, with the first two being preparatory stages to determine the topic of the project as well as the goals. The third phase involved creating and deploying the final
+    web application. The timeframe of the project was about 2 months, but with breaks between phases to work on other assignments and projects such as a MongoDB project. Overall, the first two phases took about 1 week each,
+    and the final phase took about 3 weeks.
+  </div>
+</div>
+
+<!-- Third row Schema-->
+<div class="w3-row-padding w3-container">
+  <div class="w3-margin-bottom w3-center w3-container">
+    Database Schema:
+    Our first rendition of the schema involved using NJ counties as the entity type. Single-valued attributes included election year, the number of Republican/Democrat/Other voters, Male/Female population counts, and
+    per capita GDP. Derived attributes were also included, namely percentages of voters and population makeup.
+
+    Later on we decided to scrap this model and create more comprehensive year based tables.
+  </div>
+</div>
+
+<!-- Fourth row Phase 1-->
+<div class="w3-row-padding w3-container">
+  <div class="w3-margin-bottom w3-twothird w3-container">
+    Phase 1:
+    The purpose of the first phase was to identify the direction we wanted the project to go in:
+    What do we plan to display
+    Where will we find the appropriate data sources
+    What value does the project bring to viewers?
+    Create an ER diagram open to future change
+  </div>
+  <div class="w3-margin-bottom w3-third w3-container">
+
+  </div>
+</div>
+<!-- Fifth row ER Diagram-->
+<div class="w3-row-padding w3-container">
+  <div class="w3-margin-bottom w3-center w3-container">
+  </div>
+</div>
+
+<!-- Sixth Row Phase 2/QUeries-->
+<div class="w3-row-padding w3-container">
+  <div class="w3-margin-bottom w3-third w3-container">
+
+  </div>
+  <div class="w3-margin-bottom w3-twothird w3-container">
+    Phase 2:
+    The majority of the work in this phase was to complete preparatory work in database creation - mainly in creating some sample tables and queries.
+  </div>
+</div>
+
+<!-- Seventh Row Phase 3/Host/deploy-->
+<div class="w3-row-padding w3-container">
+  <div class="w3-margin-bottom w3-twothird w3-container">
+    Phase 3:
+    This was the longest phase, and most comprehensive. It involved taking our idea and deploying it as a web application. Workload was split equally between my partner and I, but with him doing more in query creation
+    and analysis of data, while I focused on the web application side of the project.
+  </div>
+  <div class="w3-margin-bottom w3-third w3-container">
+    Web hosting and Deployment:
+    Both the database and the project itself were hosted on an Ubuntu cloud server rented from DigitalOcean. The server is set up with a LAMP stack running Python in place of PHP.
+    Deployment was managed through the Apache HTTP server module mod_wsgi.
+  </div>
+</div>
+<!-- Eighth Row DB/Final Queries-->
+<div class="w3-row-padding w3-container">
+  <div class="w3-margin-bottom w3-half w3-container">
+    Database creation and maintenance:
+    We were required to use MySQL for the database. Initial setup of the server was done through the command line, as well as creating the NJData database and users for access. Since both the MySQL server and
+    the web app were on the same cloud server, there was no need to allow remote access. Two users were created: one an administrator to handle the tasks necessary for maintenance, and another a guest user with
+    no permissions which the application uses to access the database.
+    Adding tables, running test queries, and overall maintenance of the database was done with MySQL Workbench, which was the standard tool we used for projects throughout the class. This ended up saving a decent
+    amount of time, as we experimented with different schemas and queries.
+
+  </div>
+  <div class="w3-margin-bottom w3-half w3-container">
+
+  </div>
+</div>
+<!-- Ninth Row Front/Back-->
+<div class="w3-row-padding w3-container">
+  <div class="w3-margin-bottom w3-half w3-container">
+    Frontend development:
+
+    As the project was focused more on the analysis and preparation of data, the frontend side of the project was intended to be simple and to the point. As each web page is accessed, the query results are
+    placed into tables
+  </div>
+  <div class="w3-margin-bottom w3-half w3-container">
+    Backend Development:
+
+    The web framework used for the project is Python Flask, running the Flask-MySQLdb extension to connect to the database. Button links on the index page both render templates as well as execute queries.
+    As each page is rendered, query results are stored in local variables and passed over to generate tables on each page.
+
+  </div>
+</div>
+<!-- Tenth Row Data/Analysis-->
+<div class="w3-row-padding w3-container">
+  <div class="w3-margin-bottom w3-center w3-container">
+
+  </div>
+</div>
+<!-- Afterthoughts -->
+<div class="w3-row-padding w3-container">
+  <div class="w3-margin-bottom w3-center w3-container">
+
   </div>
 </div>
