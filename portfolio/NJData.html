@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: projectb
 title: NJData
 ---
 <!-- First row -->
@@ -57,14 +57,16 @@ title: NJData
 <!-- Second row process/desc.-->
 <div class="w3-row-padding w3-container">
   <div class="w3-margin-bottom w3-third w3-container">
-
+    <img src="/lib/images/njdata/county.png" style="width:100%"></img>
   </div>
   <div class="w3-margin-bottom w3-third w3-container">
     <h5>Preface</h5>
-    <p>New Jersey has been a historically Democratic voting state in presidential elections since the 1992 election. </p>
+    <p>New Jersey has been a historically Democratic voting state in presidential elections since the 1992 election. However, it is a fairly diverse state in regards to geographic areas as well
+    as wealth distribution. There have been both Republican and Democratic governors in the time since then, and the 21 counties in New Jersey are varied enough to provide meaningful data for
+    this project.</p>
   </div>
   <div class="w3-margin-bottom w3-third w3-container">
-    Process
+    <h5>Process</h5>
     Work on the project was split into three phases, with the first two being preparatory stages to determine the topic of the project as well as the goals. The third phase involved creating and deploying the final
     web application. The timeframe of the project was about 2 months, but with breaks between phases to work on other assignments and projects such as a MongoDB project. Overall, the first two phases took about 1 week each,
     and the final phase took about 3 weeks.
@@ -74,7 +76,7 @@ title: NJData
 <!-- Third row Schema-->
 <div class="w3-row-padding w3-container">
   <div class="w3-margin-bottom w3-center w3-container">
-    Database Schema:
+    <h5>Database Schema</h5>
     Our first rendition of the schema involved using NJ counties as the entity type. Single-valued attributes included election year, the number of Republican/Democrat/Other voters, Male/Female population counts, and
     per capita GDP. Derived attributes were also included, namely percentages of voters and population makeup.
 
@@ -85,7 +87,7 @@ title: NJData
 <!-- Fourth row Phase 1-->
 <div class="w3-row-padding w3-container">
   <div class="w3-margin-bottom w3-twothird w3-container">
-    Phase 1:
+    <h5>Phase 1</h5>
     The purpose of the first phase was to identify the direction we wanted the project to go in:
     What do we plan to display
     Where will we find the appropriate data sources
@@ -109,28 +111,28 @@ title: NJData
 
   </div>
   <div class="w3-margin-bottom w3-twothird w3-container">
-    Phase 2:
-    The majority of the work in this phase was to complete preparatory work in database creation - mainly in creating some sample tables and queries.
+    <h5>Phase 2</h5>
+    <p>The majority of the work in this phase was to complete preparatory work in database creation - mainly in creating some sample tables and queries.</p>
   </div>
 </div>
 
 <!-- Seventh Row Phase 3/Host/deploy-->
 <div class="w3-row-padding w3-container">
   <div class="w3-margin-bottom w3-twothird w3-container">
-    Phase 3:
+    <h5>Phase 3</h5>
     This was the longest phase, and most comprehensive. It involved taking our idea and deploying it as a web application. Workload was split equally between my partner and I, but with him doing more in query creation
     and analysis of data, while I focused on the web application side of the project.
   </div>
   <div class="w3-margin-bottom w3-third w3-container">
-    Web hosting and Deployment:
-    Both the database and the project itself were hosted on an Ubuntu cloud server rented from DigitalOcean. The server is set up with a LAMP stack running Python in place of PHP.
-    Deployment was managed through the Apache HTTP server module mod_wsgi.
+    <h5>Web hosting and Deployment</h5>
+    <p>Both the database and the project itself were hosted on an Ubuntu cloud server rented from DigitalOcean. The server is set up with a LAMP stack running Python in place of PHP.</p>
+    <p>Deployment was managed through the Apache HTTP server module mod_wsgi.</p>
   </div>
 </div>
 <!-- Eighth Row DB/Final Queries-->
 <div class="w3-row-padding w3-container">
   <div class="w3-margin-bottom w3-half w3-container">
-    Database creation and maintenance:
+    <h5>Database creation and maintenance</h5>
     We were required to use MySQL for the database. Initial setup of the server was done through the command line, as well as creating the NJData database and users for access. Since both the MySQL server and
     the web app were on the same cloud server, there was no need to allow remote access. Two users were created: one an administrator to handle the tasks necessary for maintenance, and another a guest user with
     no permissions which the application uses to access the database.
@@ -145,13 +147,15 @@ title: NJData
 <!-- Ninth Row Front/Back-->
 <div class="w3-row-padding w3-container">
   <div class="w3-margin-bottom w3-half w3-container">
-    Frontend development:
+    <h5>Frontend development</h5>
 
-    As the project was focused more on the analysis and preparation of data, the frontend side of the project was intended to be simple and to the point. As each web page is accessed, the query results are
-    placed into tables
+    <p>As the project was focused more on the analysis and preparation of data, the frontend side of the project was intended to be simple and to the point. As each web page is accessed, the query results are
+    placed into tables generated dynamically using liquid code.</p>
+    <p>The basic HTML layout of the pages uses a modified Bootstrap layout by Keen IO (We had considered using Keen to visualize data for the project, but it was outside the scope of the class).
+    Instead of filling each section with a graph, a button link is used instead.</p>
   </div>
   <div class="w3-margin-bottom w3-half w3-container">
-    Backend Development:
+    <h5>Backend Development</h5>
 
     The web framework used for the project is Python Flask, running the Flask-MySQLdb extension to connect to the database. Button links on the index page both render templates as well as execute queries.
     As each page is rendered, query results are stored in local variables and passed over to generate tables on each page.
@@ -161,12 +165,21 @@ title: NJData
 <!-- Tenth Row Data/Analysis-->
 <div class="w3-row-padding w3-container">
   <div class="w3-margin-bottom w3-center w3-container">
-
+    <h5>Data/Analysis</h5>
+    <p>We used our collected data for two things: Predict the winner of the 2016 election in each county, as well as analyze the results of our personal queries.</p>
   </div>
 </div>
 <!-- Afterthoughts -->
 <div class="w3-row-padding w3-container">
-  <div class="w3-margin-bottom w3-center w3-container">
-
+  <div class="w3-margin-bottom w3-twothird w3-container">
+    <h5>Afterthoughts/What to improve</h5>
+    <p>Overall there were a few areas I felt that our project could have been improved upon:</p>
+    Usage of the older, state table schema: The newer schema we eventually settled on was just a more simplified format containing the same data as the old schema.
+    Dynamic queries: We had considered the option to allow for users to create dynamic queries, but scrapped the idea due to it being essentially optional for the project.
+    More robust data analysis: We had experimented with using Keen IO analytics, graphing data with R, as well as using the D3.js library
+    <p>Ultimately, however, the course was an introduction to data concepts and management - it provided a lot of information regarding database standards and information management.
+    In that sense, the project seemed not to fit in too well with the course objectives - at times, it felt more like a web development project than a database project. However, it did
+    cover just about everything in a real world application sense.
+    </p>
   </div>
 </div>

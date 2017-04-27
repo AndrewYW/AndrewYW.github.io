@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<title>{{ page.title }}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+<style>
+html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+.w3-sidenav a,.w3-sidenav h4 {font-weight:bold}
+</style>
+<body class="w3-green3 w3-content" style="max-width:1600px">
+
+<!-- Sidenav/menu -->
+<nav class="w3-sidenav w3-collapse w3-bluedark w3-animate-left" style="z-index:3;width:300px;" id="mySidenav"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="/lib/images/profile.jpg" style="width:45%;" class="w3-round"><br><br>
+    <h4 class="w3-padding-0"><b>Andrew Wang</b></h4>
+
+  </div>
+  <a href=".." class="w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a>
+  <a href="/portfolio/home" class="w3-padding w3-text-blue-grey"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a>
+  <a href="../contact" class="w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+
+  <div class="w3-section w3-padding-top w3-large">
+    <a href="https://github.com/AndrewYW" class="w3-hover-text-light-blue w3-show-inline-block w3-round"><i class="fa fa-github"></i></a>
+    <a href="http://www.linkedin.com/in/AndrewYW" class="w3-hover-text-indigo w3-show-inline-block w3-round"><i class="fa fa-linkedin"></i></a>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidenav on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header class="w3-container">
+    <a href="../"><img src="/lib/images/profile.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-opennav w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <h1><b>{{page.title}}</b></h1>
+    <div class="w3-section w3-bottombar w3-padding-10 w3-border-bluedark"></div>
+    <p></p>
+  </header>
+
+  <div class="w3-container">
+  {{ content }}
+  </div>
+  <div class="w3-container w3-padding-20"></div>
+
+  <!-- Footer -->
+  <footer class=" w3-padding-20 w3-bluelight ">
+  <div class="w3-row-padding">
+    <div class="w3-rest">
+      <p>Powered by <a href="http://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a> and <a href="https://jekyllrb.com" target = "_blank">Jekyll</a>. Source code for this site can be found on <a href="https://github.com/AndrewYW/AndrewYW.github.io">my Github.</a></p>
+      <p>Copyright © Andrew Wang 2016</p>
+    </div>
+
+  </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidenav
+function w3_open() {
+    document.getElementById("mySidenav").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+    document.getElementById("mySidenav").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
