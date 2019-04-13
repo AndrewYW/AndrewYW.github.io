@@ -1,64 +1,14 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-<title>{{ page.title }}</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" type="image/x-icon" href="../lib/images/favicon.ico">
-<link rel="stylesheet" href="/lib/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-
-
-<style>
-html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
-.w3-sidenav a,.w3-sidenav h4 {font-weight:bold}
-</style>
-<body class="w3-green3 w3-content" style="max-width:1600px">
-
-{% include {{ page.nav }}nav.html %}
-
-<!-- !PAGE CONTENT! -->
-<div class="w3-main" style="margin-left:300px">
-
-  <!-- Header -->
-  <header class="w3-container">
-    <a href="/"><img src="/lib/images/profile.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
-    <span class="w3-opennav w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
-    <h1><b>{{page.title}}</b></h1>
-    <div class="w3-section w3-bottombar w3-padding-10 w3-border-bluedark">
-      <p>  </p>
-    </div>
-  </header>
-
-  <div class="w3-container">
-  {{ content }}
-  </div>
-  <div class="w3-container w3-padding-20"></div>
-  <!-- Footer -->
-  <footer class="w3-container w3-padding-20 w3-bluelight w3-bottom">
-  <div class="w3-row-padding">
-    <div class="w3-rest">
-      <p>Powered by <a href="http://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a> and <a href="https://jekyllrb.com" target = "_blank">Jekyll</a>. Source code for this site can be found on <a href="https://github.com/AndrewYW/AndrewYW.github.io">my Github.</a></p>
-      <!-- <p>Copyright © Andrew Wang 2016</p> -->
-    </div>
-
-  </div>
-  </footer>
-
-<!-- End page content -->
-</div>
-
-<script>
-// Script to open and close sidenav
-function w3_open() {
-    document.getElementById("mySidenav").style.display = "block";
-    document.getElementById("myOverlay").style.display = "block";
-}
-
-function w3_close() {
-    document.getElementById("mySidenav").style.display = "none";
-    document.getElementById("myOverlay").style.display = "none";
-}
-</script>
-
+{% include head.html %}
+<body>
+{% include header.html %}
+{{ content }}
+{% include footer.html %}
 </body>
 </html>
