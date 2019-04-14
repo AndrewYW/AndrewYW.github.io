@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Hyperspace by HTML5 UP
+title: Andrew Wang
 ---
 
 <!-- Sidebar -->
@@ -9,8 +9,8 @@ title: Hyperspace by HTML5 UP
 		<nav>
 			<ul>
 				<li><a href="#intro">Welcome</a></li>
-				<li><a href="#one">Who we are</a></li>
-				<li><a href="#two">What we do</a></li>
+				<li><a href="#one">About me</a></li>
+				<li><a href="#two">Portfolio</a></li>
 				<li><a href="#three">Get in touch</a></li>
 			</ul>
 		</nav>
@@ -23,9 +23,9 @@ title: Hyperspace by HTML5 UP
 <!-- Intro -->
 <section id="intro" class="wrapper style1 fullscreen fade-up">
 	<div class="inner">
-		<h1>Hyperspace</h1>
-		<p>Just another fine responsive site template designed by <a href="http://html5up.net">HTML5 UP</a><br />
-		and released for free under the <a href="http://html5up.net/license">Creative Commons</a>.</p>
+		<h1>Hey there.</h1>
+		<p>My name is Andrew Wang.<br />
+		I'm a software engineer based in New York City.</p>
 		<ul class="actions">
 			<li><a href="#one" class="button scrolly">Learn more</a></li>
 		</ul>
@@ -33,47 +33,7 @@ title: Hyperspace by HTML5 UP
 </section>
 
 <!-- One -->
-<section id="one" class="wrapper style2 spotlights">
-	<section>
-		<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
-		<div class="content">
-			<div class="inner">
-				<h2>Sed ipsum dolor</h2>
-				<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-				<ul class="actions">
-					<li><a href="#" class="button">Learn more</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
-	<section>
-		<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
-		<div class="content">
-			<div class="inner">
-				<h2>Feugiat consequat</h2>
-				<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-				<ul class="actions">
-					<li><a href="#" class="button">Learn more</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
-	<section>
-		<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
-		<div class="content">
-			<div class="inner">
-				<h2>Ultricies aliquam</h2>
-				<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-				<ul class="actions">
-					<li><a href="#" class="button">Learn more</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
-</section>
-
-<!-- Two -->
-<section id="two" class="wrapper style3 fade-up">
+<section id="one" class="wrapper style2 fade-up">
 	<div class="inner">
 		<h2>What we do</h2>
 		<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
@@ -113,6 +73,46 @@ title: Hyperspace by HTML5 UP
 			<li><a href="#" class="button">Learn more</a></li>
 		</ul>
 	</div>
+</section>
+
+<!-- Two -->
+<section id="two" class="wrapper style3 spotlights">
+	<section>
+		<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
+		<div class="content">
+			<div class="inner">
+				<h2>Sed ipsum dolor</h2>
+				<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+				<ul class="actions">
+					<li><a href="#" class="button">Learn more</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section>
+		<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
+		<div class="content">
+			<div class="inner">
+				<h2>Feugiat consequat</h2>
+				<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+				<ul class="actions">
+					<li><a href="#" class="button">Learn more</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section>
+		<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
+		<div class="content">
+			<div class="inner">
+				<h2>Ultricies aliquam</h2>
+				<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+				<ul class="actions">
+					<li><a href="#" class="button">Learn more</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
 </section>
 
 <!-- Three -->
