@@ -11,7 +11,7 @@ title: Andrew Wang
 				<li><a href="#intro">Welcome</a></li>
 				<li><a href="#one">About me</a></li>
 				<li><a href="#two">Portfolio</a></li>
-				<li><a href="#three">Get in touch</a></li>
+				<li><a href="#three">Contact</a></li>
 			</ul>
 		</nav>
 	</div>
@@ -27,7 +27,7 @@ title: Andrew Wang
 		<p>My name is Andrew Wang.<br />
 		I'm a software engineer based in New York City.</p>
 		<ul class="actions">
-			<li><a href="#one" class="button scrolly">Learn more</a></li>
+			<li><a href="#one" class="button scrolly">About me</a></li>
 		</ul>
 	</div>
 </section>
@@ -35,7 +35,7 @@ title: Andrew Wang
 <!-- One -->
 <section id="one" class="wrapper style2 fade-up">
 	<div class="inner">
-		<h2>What we do</h2>
+		<h2>About me</h2>
 		<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
 		<div class="features">
 			<section>
@@ -118,7 +118,7 @@ title: Andrew Wang
 <!-- Three -->
 <section id="three" class="wrapper style1 fade-up">
 	<div class="inner">
-		<h2>Get in touch</h2>
+		<h2>Contact</h2>
 		<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
 		<div class="split style1">
 			<section>
@@ -143,9 +143,8 @@ title: Andrew Wang
 			<section>
 				<ul class="contact">
 					<li>
-						<h3>Address</h3>
-						<span>12345 Somewhere Road #654<br />
-						Nashville, TN 00000-0000<br />
+						<h3>Location</h3>
+						<span>New York City, NY<br />
 						USA</span>
 					</li>
 					<li>
@@ -153,16 +152,9 @@ title: Andrew Wang
 						<a href="#">user@untitled.tld</a>
 					</li>
 					<li>
-						<h3>Phone</h3>
-						<span>(000) 000-0000</span>
-					</li>
-					<li>
 						<h3>Social</h3>
 						<ul class="icons">
-							<li><a href="#" class="fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="fa-facebook"><span class="label">Facebook</span></a></li>
 							<li><a href="#" class="fa-github"><span class="label">GitHub</span></a></li>
-							<li><a href="#" class="fa-instagram"><span class="label">Instagram</span></a></li>
 							<li><a href="#" class="fa-linkedin"><span class="label">LinkedIn</span></a></li>
 						</ul>
 					</li>
