@@ -156,6 +156,7 @@ title: Andrew Wang
 						<ul class="icons">
 							<li><a href="#" class="fa-github"><span class="label">GitHub</span></a></li>
 							<li><a href="#" class="fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="#" class="fa-angellist"><span class="label">AngelList</span></a></li>
 						</ul>
 					</li>
 				</ul>
