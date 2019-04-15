@@ -7,7 +7,7 @@
 
 # Site settings
 title: Andrew Wang
-email: andrewwang39@gmail.com
+email: contact@andrewyw.io
 description: 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://andrewyw.github.io" # the base hostname & protocol for your site
@@ -37,3 +37,17 @@ facebook:
   admins: 
 logo:
 google_site_verification: 
+
+# Project links
+harmony_url: https://harmony-rb.herokuapp.com
+harmony_gh: https://www.github.com/AndrewYW/harmony
+
+astar_url: https://www.andrewyw.io/astar-js
+astar_gh: https://www.github.com/AndrewYW/astar-js
+
+twitmern_url: https://twitmern.herokuapp.com/
+twitmern_gh: https://www.github.com/AndrewYW/twitmern
+
+chess_gh: https://www.github.com/AndrewYW/androidchess
+10bot_gh: https://www.github.com/AndrewYW/10bot
+song_gh: https://www.github.com/AndrewYW/SongLibrary
