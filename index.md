@@ -42,44 +42,40 @@ title: Andrew Wang
 			</span>
 			I do things
 		</p>
-		<!-- <div class="icons">
-			<section>
-				<span class="icon major fa-code"></span>
-				<h3>dinkleberg</h3>
-				<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-			</section>
-			<section>
-				<span class="icon major fa-lock"></span>
-				<h3>Aliquam sed nullam</h3>
-			</section>
-			<section>
-				<span class="icon major fa-cog"></span>
-				<h3>Sed erat ullam corper</h3>
-			</section>
-			<section>
-				<span class="icon major fa-desktop"></span>
-				<h3>Veroeros quis lorem</h3>
-				<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-			</section>
-			<section>
-				<span class="icon major fa-chain"></span>
-				<h3>Urna quis bibendum</h3>
-				<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-			</section>
-			<section>
-				<span class="icon major fa-diamond"></span>
-				<h3>Aliquam urna dapibus</h3>
-				<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-			</section>
-		</div> -->
 		<section>
 		<ul class="actions">
 			<li><a href="/resume.pdf" class="button">Resume</a></li>
+			<li><a href="{{ site.github_url }}" class="button primary icon fa-github">Github</a></li>
 		</ul>
 		<div class="row gtr-uniform">
 			<div class="col-4">
 				<ul class="icons-large menu">
+					<li><i class="devicon-ruby-plain"></i><a class="icon"> Ruby</a></li>
+					<li><i class="devicon-python-plain"></i><a class="icon"> Python</a></li>
+					<li><i class="devicon-java-plain"></i><a class="icon"> Java</a></li>
+					<li><i class="devicon-javascript-plain"></i><a class="icon"> Javascript</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="row gtr-uniform">
+			<div class="col-4">
+				<ul class="icons-large menu">
 					<li><i class="devicon-rails-plain"></i><a class="icon"> Rails</a></li>
+					<li><i class="devicon-nodejs-plain"></i><a class="icon"> NodeJS</a></li>
+					<li><i class="devicon-react-plain"></i><a class="icon"> React</a></li>
+					<li><i class="devicon-express-original"></i><a class="icon"> Express</a></li>
+					<li><i class="devicon-jquery-plain"></i><a class="icon"> jQuery</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="row gtr-uniform">
+			<div class="col-4">
+				<ul class="icons-large menu">
+					<li><i class="devicon-postgresql-plain"></i><a class="icon"> PostgreSQL</a></li>
+					<li><i class="devicon-mongodb-plain"></i><a class="icon"> MongoDB</a></li>
+					<li><i class="devicon-mysql-plain"></i><a class="icon"> MySql</a></li>
+					<li><i class="devicon-git-plain"></i><a class="icon"> Git</a></li>
+					<li><i class="devicon-heroku-original"></i><a class="icon"> Heroku</a></li>
 				</ul>
 			</div>
 		</div>

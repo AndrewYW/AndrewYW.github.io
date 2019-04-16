@@ -2741,7 +2741,7 @@
 
 			ul.icons-large li {
 				display: inline-block;
-				padding: 0 0.75em 0 0;
+				padding: 0 0 0 0;
 			}
 
 				ul.icons-large li:last-child {
@@ -2751,7 +2751,6 @@
 				ul.icons-large li > a, ul.icons-large li > span, ul.icons-large li > i {
 					border: 0;
 					text-decoration: none;
-					font-size: 1.25em;
 				}
 
 					ul.icons-large li > a:before, ul.icons-large li > span:before {
