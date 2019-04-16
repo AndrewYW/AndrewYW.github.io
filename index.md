@@ -213,21 +213,21 @@ title: Andrew Wang
 		<p>Let's get in touch.</p>
 		<div class="split style1">
 			<section>
-				<form method="post" action="mailto:{{ site.email }}">
+				<form method="post" action="https://formspree.io/{{ site.email }}">
 					<div class="field half first">
 						<label for="name">Name</label>
 						<input type="text" name="name" id="name" />
 					</div>
 					<div class="field half">
 						<label for="email">Email</label>
-						<input type="text" name="email" id="email" />
+						<input type="text" name="_replyto" id="email" />
 					</div>
 					<div class="field">
 						<label for="message">Message</label>
 						<textarea name="message" id="message" rows="5"></textarea>
 					</div>
 					<ul class="actions">
-						<li><a href="" class="button submit icon primary fa-envelope">Send Message</a></li>
+						<li><input type="submit" class="button submit icon primary fa-envelope" value="Send Message"/></li>
 						<li><a href="#intro" class="button scrolly icon primary fa-arrow-up">Back up</a></li>
 					</ul>
 				</form>
@@ -236,8 +236,7 @@ title: Andrew Wang
 				<ul class="contact">
 					<li>
 						<h3>Location</h3>
-						<span>New York City, NY<br/>
-						USA</span>
+						<span>New York City, NY USA</span>
 					</li>
 					<li>
 						<h3>Email</h3>
