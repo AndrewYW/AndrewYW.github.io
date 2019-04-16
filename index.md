@@ -89,7 +89,7 @@ title: Andrew Wang
 <!-- Two -->
 <section id="two" class="wrapper style3 spotlights">
 	<section>
-		<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
+		<a href="{{ site.harmony_url }}" class="image"><img src="images/portfolio/harmony.png" alt="" data-position="center center" /></a>
 		<div class="content">
 			<div class="inner">
 				<h2>Harmony</h2>
@@ -99,11 +99,22 @@ title: Andrew Wang
 					<li><a href="{{ site.harmony_url }}" class="button">View online</a></li>
 					<li><a href="{{ site.harmony_gh }}" class="button primary icon fa-github">Github</a></li>
 				</ul>
+				<ul class="icons-xl menu">
+					<li><i class="devicon-ruby-plain"></i></li>
+					<li><i class="devicon-javascript-plain"></i></li>
+					<li><i class="devicon-rails-plain"></i></li>
+					<li><i class="devicon-react-plain"></i></li>
+					<li><i class="devicon-postgresql-plain"></i></li>
+					<li><i class="devicon-webpack-plain"></i></li>
+					<li><i class="devicon-heroku-original"></i></li>
+					<li><i class="devicon-html5-plain-wordmark"></i></li>
+					<li><i class="devicon-css3-plain-wordmark"></i></li>
+				</ul>
 			</div>
 		</div>
 	</section>
 	<section>
-		<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
+		<a href="{{ site.astar_url }}" class="image"><img src="images/portfolio/astar.png" alt="" data-position="top center" /></a>
 		<div class="content">
 			<div class="inner">
 				<h2>A* Pathfinder</h2>
@@ -112,11 +123,17 @@ title: Andrew Wang
 					<li><a href="{{ site.astar_url }}" class="button">View online</a></li>
 					<li><a href="{{ site.astar_gh }}" class="button primary icon fa-github">Github</a></li>
 				</ul>
+				<ul class="icons-xl menu">
+					<li><i class="devicon-javascript-plain"></i></li>
+					<li><i class="devicon-webpack-plain"></i></li>
+					<li><i class="devicon-html5-plain-wordmark"></i></li>
+					<li><i class="devicon-css3-plain-wordmark"></i></li>
+				</ul>
 			</div>
 		</div>
 	</section>
 	<!-- <section>
-		<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
+		<a href="{{ site.twitmern_url }}" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
 		<div class="content">
 			<div class="inner">
 				<h2>Twitmern</h2>
@@ -125,11 +142,21 @@ title: Andrew Wang
 					<li><a href="{{ site.twitmern_url }}" class="button">Learn more</a></li>
 					<li><a href="{{ site.twitmern_gh }}" class="button primary icon fa-github">Github</a></li>
 				</ul>
+				<ul class="icons-xl menu">
+					<li><i class="devicon-javascript-plain"></i></li>
+					<li><i class="devicon-mongodb-plain"></i></li>
+					<li><i class="devicon-express-original"></i></li>
+					<li><i class="devicon-react-plain"></i></li>
+					<li><i class="devicon-nodejs-plain"></i></li>
+					<li><i class="devicon-heroku-original"></i></li>
+					<li><i class="devicon-html5-plain-wordmark"></i></li>
+					<li><i class="devicon-css3-plain-wordmark"></i></li>
+				</ul>
 			</div>
 		</div>
 	</section> -->
 	<section>
-		<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="center center" /></a>
+		<a href="{{ site.chess_gh }}" class="image"><img src="images/portfolio/androidchess.PNG" alt="" data-position="center center" /></a>
 		<div class="content">
 			<div class="inner">
 				<h2>Android Chess</h2>
@@ -137,11 +164,16 @@ title: Andrew Wang
 				<ul class="actions">
 					<li><a href="{{ site.chess_gh }}" class="button primary icon fa-github">Github</a></li>
 				</ul>
+				<ul class="icons-xl menu">
+					<li><i class="devicon-java-plain"></i></li>
+					<li><i class="devicon-android-plain"></i></li>
+					<li><i class="devicon-gradle-plain"></i></li>
+				</ul>
 			</div>
 		</div>
 	</section>
 	<section>
-		<a href="#" class="image"><img src="images/pic05.jpg" alt="" data-position="top center"/></a>
+		<a href="{{ site.tenbot_gh }}" class="image"><img src="images/portfolio/10bot.png" alt="" data-position="top center"/></a>
 		<div class="content">
 			<div class="inner">
 				<h2>10bot</h2>
@@ -149,17 +181,25 @@ title: Andrew Wang
 				<ul class="actions">
 					<li><a href="{{ site.tenbot_gh }}" class="button primary icon fa-github">Github</a></li>
 				</ul>
+				<ul class="icons-xl menu">
+					<li><i class="devicon-ruby-plain"></i></li>
+					<!-- <li><i class="icon primary fa-discord"></i></li> -->
+					<li><i class="icon primary fa-database"></i></li>
+				</ul>
 			</div>
 		</div>
 	</section>
 	<section>
-		<a href="#" class="image"><img src="images/pic06.jpg" alt="" data-position="25% 25%"/></a>
+		<a href="{{ site.song_gh }}" class="image"><img src="images/portfolio/slib.PNG" alt="" data-position="25% 25%"/></a>
 		<div class="content">
 			<div class="inner">
 				<h2>Song Library</h2>
 					<p>Simple JavaFX GUI song library application.</p>
 				<ul class="actions">
 					<li><a href="{{ site.song_gh }}" class="button primary icon fa-github">Github</a></li>
+				</ul>
+				<ul class="icons-xl menu">
+					<li><i class="devicon-java-plain"></i></li>
 				</ul>
 			</div>
 		</div>

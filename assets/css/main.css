@@ -2766,6 +2766,40 @@
 						display: none;
 					}
 
+		ul.icons-xl {
+			cursor: default;
+			list-style: none;
+			padding-left: 0;
+		}
+
+			ul.icons-xl li {
+				display: inline-block;
+				padding: 0 0 0 0;
+			}
+
+				ul.icons-xl li:last-child {
+					padding-right: 0;
+				}
+
+				ul.icons-xl li > a, ul.icons-xl li > span, ul.icons-xl li > i {
+					border: 0;
+					text-decoration: none;
+					font-size: 1.5em;
+				}
+
+					ul.icons-xl li > a:before, ul.icons-xl li > span:before {
+						-moz-osx-font-smoothing: grayscale;
+						-webkit-font-smoothing: antialiased;
+						font-family: FontAwesome;
+						font-style: normal;
+						font-weight: normal;
+						text-transform: none !important;
+					}
+
+					ul.icons-xl li > a .label, ul.icons-xl li > span .label {
+						display: none;
+					}
+
 		ul.actions {
 			cursor: default;
 			list-style: none;
