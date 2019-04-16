@@ -23,7 +23,7 @@ title: Andrew Wang
 <!-- Intro -->
 <section id="intro" class="wrapper style1 fullscreen fade-up">
 	<div class="inner">
-		<h1>Hey there.</h1>
+		<h1 class="major">Hey there.</h1>
 		<p>My name is Andrew Wang.<br />
 		I'm a software engineer based in New York City.</p>
 		<ul class="actions">
@@ -35,25 +35,28 @@ title: Andrew Wang
 <!-- One -->
 <section id="one" class="wrapper style2 fade-up">
 	<div class="inner">
-		<h2>About me</h2>
-		<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
-		<div class="icons">
+		<h2 class="major">About me</h2>
+		<p>
+			<span class="image right">
+				<img src="images/me.jpg"/>
+			</span>
+			I do things
+		</p>
+		<!-- <div class="icons">
 			<section>
 				<span class="icon major fa-code"></span>
 				<h3>dinkleberg</h3>
-				<!-- <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p> -->
+				<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
 			</section>
 			<section>
 				<span class="icon major fa-lock"></span>
 				<h3>Aliquam sed nullam</h3>
-				<!-- <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p> -->
 			</section>
 			<section>
 				<span class="icon major fa-cog"></span>
 				<h3>Sed erat ullam corper</h3>
-				<!-- <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p> -->
 			</section>
-			<!-- <section>
+			<section>
 				<span class="icon major fa-desktop"></span>
 				<h3>Veroeros quis lorem</h3>
 				<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
@@ -67,11 +70,20 @@ title: Andrew Wang
 				<span class="icon major fa-diamond"></span>
 				<h3>Aliquam urna dapibus</h3>
 				<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-			</section> -->
-		</div>
+			</section>
+		</div> -->
+		<section>
 		<ul class="actions">
 			<li><a href="/resume.pdf" class="button">Resume</a></li>
 		</ul>
+		<div class="row gtr-uniform">
+			<div class="col-4">
+				<ul class="icons large">
+					<li><a class="icon fa-code-fork"> Git</a></li>
+				</ul>
+			</div>
+		</div>
+		</section>
 	</div>
 </section>
 
@@ -118,7 +130,7 @@ title: Andrew Wang
 		</div>
 	</section>
 	<section>
-		<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
+		<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="center center" /></a>
 		<div class="content">
 			<div class="inner">
 				<h2>Android Chess</h2>
@@ -130,7 +142,7 @@ title: Andrew Wang
 		</div>
 	</section>
 	<section>
-		<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
+		<a href="#" class="image"><img src="images/pic05.jpg" alt="" data-position="top center"/></a>
 		<div class="content">
 			<div class="inner">
 				<h2>10bot</h2>
@@ -142,7 +154,7 @@ title: Andrew Wang
 		</div>
 	</section>
 	<section>
-		<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
+		<a href="#" class="image"><img src="images/pic06.jpg" alt="" data-position="25% 25%"/></a>
 		<div class="content">
 			<div class="inner">
 				<h2>Song Library</h2>
@@ -158,11 +170,11 @@ title: Andrew Wang
 <!-- Three -->
 <section id="three" class="wrapper style1 fade-up">
 	<div class="inner">
-		<h2>Contact</h2>
+		<h2 class="major">Contact</h2>
 		<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
 		<div class="split style1">
 			<section>
-				<form method="post" action="#">
+				<form method="post" action="mailto:{{ site.email }}">
 					<div class="field half first">
 						<label for="name">Name</label>
 						<input type="text" name="name" id="name" />
@@ -189,7 +201,7 @@ title: Andrew Wang
 					</li>
 					<li>
 						<h3>Email</h3>
-						<a href="#">contact@andrewyw.io</a>
+						<a href="mailto:{{ site.email }}">contact@andrewyw.io</a>
 					</li>
 					<li>
 						<h3>Social</h3>
