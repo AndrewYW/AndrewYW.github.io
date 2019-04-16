@@ -1,0 +1,53 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Andrew Wang
+email: contact@andrewyw.io
+description: 
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://andrewyw.github.io" # the base hostname & protocol for your site
+
+# Social settings
+500px_url: 
+facebook_url: 
+github_url: https://www.github.com/AndrewYW
+gitlab_url: 
+googleplus_url: 
+instagram_url: 
+linkedin_url: https://www.linkedin.com/in/andrewyw
+pinterest_url: 
+slack_url: 
+twitter_url: 
+
+# Build settings
+markdown: kramdown
+
+# Plugin: jekyll-seo-tag
+twitter:
+  username: 
+# Add one or more of the following
+facebook:
+  app_id: 
+  publisher: 
+  admins: 
+logo:
+google_site_verification: 
+
+# Project links
+harmony_url: https://harmony-rb.herokuapp.com
+harmony_gh: https://www.github.com/AndrewYW/harmony
+
+astar_url: https://www.andrewyw.io/astar-js
+astar_gh: https://www.github.com/AndrewYW/astar-js
+
+twitmern_url: https://twitmern.herokuapp.com/
+twitmern_gh: https://www.github.com/AndrewYW/twitmern
+
+chess_gh: https://www.github.com/AndrewYW/androidchess
+tenbot_gh: https://www.github.com/AndrewYW/10bot
+song_gh: https://www.github.com/AndrewYW/SongLibrary
