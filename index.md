@@ -27,7 +27,7 @@ title: Andrew Wang
 		<p>My name is Andrew Wang.<br />
 		I'm a software engineer based in New York City.</p>
 		<ul class="actions">
-			<li><a href="#one" class="button scrolly">About me</a></li>
+			<li><a href="#one" class="button scrolly icon primary fa-arrow-down">About me</a></li>
 		</ul>
 	</div>
 </section>
@@ -38,15 +38,13 @@ title: Andrew Wang
 		<h2 class="major">About me</h2>
 		<p>
 			<span class="image right">
-				<img src="images/me.jpg"/>
+				<img src="images/me.jpeg"/>
 			</span>
-			I do things
+			I'm a full stack developer with experience in web application development using Ruby on Rails, React, Redux, and SQL. <br /> <br />
+			I've worked with a variety of technologies through hobby projects and undergraduate courses at Rutgers University, where I studied Mathematics, Computer Science, and Music. <br/><br/>
+			Outside of software development, I've been a fencer, coach, and former competitive esport player and coach.
 		</p>
 		<section>
-		<ul class="actions">
-			<li><a href="/resume.pdf" class="button">Resume</a></li>
-			<li><a href="{{ site.github_url }}" class="button primary icon fa-github">Github</a></li>
-		</ul>
 		<div class="row gtr-uniform">
 			<div class="col-4">
 				<ul class="icons-large menu">
@@ -79,6 +77,11 @@ title: Andrew Wang
 				</ul>
 			</div>
 		</div>
+		<ul class="actions">
+			<li><a href="/resume.pdf" class="button icon fa-copy">Resume</a></li>
+			<li><a href="{{ site.github_url }}" class="button primary icon fa-github">Github</a></li>
+			<li><a href="#two" class="button primary icon scrolly fa-arrow-down">Portfolio</a></li>
+		</ul>
 		</section>
 	</div>
 </section>
@@ -112,7 +115,7 @@ title: Andrew Wang
 			</div>
 		</div>
 	</section>
-	<section>
+	<!-- <section>
 		<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
 		<div class="content">
 			<div class="inner">
@@ -124,7 +127,7 @@ title: Andrew Wang
 				</ul>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<section>
 		<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="center center" /></a>
 		<div class="content">
@@ -167,7 +170,7 @@ title: Andrew Wang
 <section id="three" class="wrapper style1 fade-up">
 	<div class="inner">
 		<h2 class="major">Contact</h2>
-		<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+		<p>Let's get in touch.</p>
 		<div class="split style1">
 			<section>
 				<form method="post" action="mailto:{{ site.email }}">
@@ -184,7 +187,8 @@ title: Andrew Wang
 						<textarea name="message" id="message" rows="5"></textarea>
 					</div>
 					<ul class="actions">
-						<li><a href="" class="button submit">Send Message</a></li>
+						<li><a href="" class="button submit icon primary fa-envelope">Send Message</a></li>
+						<li><a href="#intro" class="button scrolly icon primary fa-arrow-up">Back up</a></li>
 					</ul>
 				</form>
 			</section>
