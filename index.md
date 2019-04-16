@@ -37,23 +37,23 @@ title: Andrew Wang
 	<div class="inner">
 		<h2>About me</h2>
 		<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
-		<div class="features">
+		<div class="icons">
 			<section>
 				<span class="icon major fa-code"></span>
-				<h3>Lorem ipsum amet</h3>
-				<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+				<h3>dinkleberg</h3>
+				<!-- <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p> -->
 			</section>
 			<section>
 				<span class="icon major fa-lock"></span>
 				<h3>Aliquam sed nullam</h3>
-				<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+				<!-- <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p> -->
 			</section>
 			<section>
 				<span class="icon major fa-cog"></span>
 				<h3>Sed erat ullam corper</h3>
-				<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+				<!-- <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p> -->
 			</section>
-			<section>
+			<!-- <section>
 				<span class="icon major fa-desktop"></span>
 				<h3>Veroeros quis lorem</h3>
 				<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
@@ -67,10 +67,10 @@ title: Andrew Wang
 				<span class="icon major fa-diamond"></span>
 				<h3>Aliquam urna dapibus</h3>
 				<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-			</section>
+			</section> -->
 		</div>
 		<ul class="actions">
-			<li><a href="#" class="button">Learn more</a></li>
+			<li><a href="/resume.pdf" class="button">Resume</a></li>
 		</ul>
 	</div>
 </section>
@@ -81,10 +81,12 @@ title: Andrew Wang
 		<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
 		<div class="content">
 			<div class="inner">
-				<h2>Sed ipsum dolor</h2>
-				<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+				<h2>Harmony</h2>
+				<p>Full stack clone of Discord, a popular voice and text chat application. Implemented with
+				Ruby on Rails, React, Redux, SQL.</p>
 				<ul class="actions">
-					<li><a href="#" class="button">Learn more</a></li>
+					<li><a href="{{ site.harmony_url }}" class="button">View online</a></li>
+					<li><a href="{{ site.harmony_gh }}" class="button primary icon fa-github">Github</a></li>
 				</ul>
 			</div>
 		</div>
@@ -93,10 +95,11 @@ title: Andrew Wang
 		<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
 		<div class="content">
 			<div class="inner">
-				<h2>Feugiat consequat</h2>
-				<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+				<h2>A* Pathfinder</h2>
+				<p>JS implementation of A* search algorithms for discretized grid environments.</p>
 				<ul class="actions">
-					<li><a href="#" class="button">Learn more</a></li>
+					<li><a href="{{ site.astar_url }}" class="button">View online</a></li>
+					<li><a href="{{ site.astar_gh }}" class="button primary icon fa-github">Github</a></li>
 				</ul>
 			</div>
 		</div>
@@ -105,10 +108,47 @@ title: Andrew Wang
 		<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
 		<div class="content">
 			<div class="inner">
-				<h2>Ultricies aliquam</h2>
-				<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+				<h2>Twitmern</h2>
+				<p>MERN Stack Twitter clone. </p>
 				<ul class="actions">
-					<li><a href="#" class="button">Learn more</a></li>
+					<li><a href="{{ site.twitmern_url }}" class="button">Learn more</a></li>
+					<li><a href="{{ site.twitmern_gh }}" class="button primary icon fa-github">Github</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section>
+		<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
+		<div class="content">
+			<div class="inner">
+				<h2>Android Chess</h2>
+				<p>Android Chess app written in Java, featuring data serialization for history storage and playback.</p>
+				<ul class="actions">
+					<li><a href="{{ site.chess_gh }}" class="button primary icon fa-github">Github</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section>
+		<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
+		<div class="content">
+			<div class="inner">
+				<h2>10bot</h2>
+					<p>Custom Discord server management bot. Implemented with Ruby, SQLite3, and a custom ORM.</p>
+				<ul class="actions">
+					<li><a href="{{ site.tenbot_gh }}" class="button primary icon fa-github">Github</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section>
+		<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
+		<div class="content">
+			<div class="inner">
+				<h2>Song Library</h2>
+					<p>Simple JavaFX GUI song library application.</p>
+				<ul class="actions">
+					<li><a href="{{ site.song_gh }}" class="button primary icon fa-github">Github</a></li>
 				</ul>
 			</div>
 		</div>
@@ -144,19 +184,19 @@ title: Andrew Wang
 				<ul class="contact">
 					<li>
 						<h3>Location</h3>
-						<span>New York City, NY<br />
+						<span>New York City, NY<br/>
 						USA</span>
 					</li>
 					<li>
 						<h3>Email</h3>
-						<a href="#">user@untitled.tld</a>
+						<a href="#">contact@andrewyw.io</a>
 					</li>
 					<li>
 						<h3>Social</h3>
 						<ul class="icons">
-							<li><a href="#" class="fa-github"><span class="label">GitHub</span></a></li>
-							<li><a href="#" class="fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="#" class="fa-angellist"><span class="label">AngelList</span></a></li>
+							<li><a href="https://www.github.com/AndrewYW" class="fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.linkedin.com/in/andrewyw" class="fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://angel.co/andrewyw" class="fa-angellist"><span class="label">AngelList</span></a></li>
 						</ul>
 					</li>
 				</ul>
