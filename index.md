@@ -78,8 +78,8 @@ title: Andrew Wang
 		</ul>
 		<div class="row gtr-uniform">
 			<div class="col-4">
-				<ul class="icons large">
-					<li><a class="icon fa-code-fork"> Git</a></li>
+				<ul class="icons-large menu">
+					<li><i class="devicon-rails-plain"></i><a class="icon"> Rails</a></li>
 				</ul>
 			</div>
 		</div>
