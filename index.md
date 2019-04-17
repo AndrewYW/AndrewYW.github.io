@@ -135,7 +135,7 @@ title: Andrew Wang
 		</div>
 	</section>
 	<section>
-		<a class="image"><img src="images/twitmern.png" alt="twitmern"/></a>
+		<a class="image"><img src="images/portfolio/twitmern.png" alt="twitmern"/></a>
 		<div class="content">
 			<div class="inner">
 				<h2>Twitmern</h2>
