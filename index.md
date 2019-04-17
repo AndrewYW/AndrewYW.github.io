@@ -135,7 +135,7 @@ title: Andrew Wang
 		</div>
 	</section>
 	<section>
-		<a href="{{ site.twitmern_url }}" class="image"><img src="images/twitmern.png" alt="twitmern" data-position="25% 25%" /></a>
+		<a class="image"><img src="images/twitmern.png" alt="twitmern"/></a>
 		<div class="content">
 			<div class="inner">
 				<h2>Twitmern</h2>
