@@ -94,7 +94,7 @@ title: Andrew Wang
 			<div class="inner">
 				<h2>Harmony</h2>
 				<p>Full stack clone of Discord, a popular voice and text chat application. Implemented with
-				Ruby on Rails, React, Redux, SQL.</p>
+				Ruby on Rails, React, Redux, SQL. Under active development.</p>
 				<ul class="actions">
 					<li><a href="{{ site.harmony_url }}" class="button">View online</a></li>
 					<li><a href="{{ site.harmony_gh }}" class="button primary icon fa-github">Github</a></li>
@@ -120,7 +120,7 @@ title: Andrew Wang
 		<div class="content">
 			<div class="inner">
 				<h2>A* Pathfinder</h2>
-				<p>JS implementation of A* search algorithms for discretized grid environments.</p>
+				<p>JS implementation of A* search algorithms for discretized grid environments. Under active development.</p>
 				<ul class="actions">
 					<li><a href="{{ site.astar_url }}" class="button">View online</a></li>
 					<li><a href="{{ site.astar_gh }}" class="button primary icon fa-github">Github</a></li>
@@ -139,7 +139,7 @@ title: Andrew Wang
 		<div class="content">
 			<div class="inner">
 				<h2>Twitmern</h2>
-				<p>MERN Stack Twitter clone. </p>
+				<p>MERN Stack Twitter clone. Under active development.</p>
 				<ul class="actions">
 					<!-- <li><a href="{{ site.twitmern_url }}" class="button">Learn more</a></li> -->
 					<li><a href="{{ site.twitmern_gh }}" class="button primary icon fa-github">Github</a></li>
@@ -181,7 +181,7 @@ title: Andrew Wang
 		<div class="content">
 			<div class="inner">
 				<h2>10bot</h2>
-					<p>Custom Discord server management bot. Implemented with Ruby, SQLite3, and a custom ORM.</p>
+					<p>Custom Discord server management bot. Implemented with Ruby, SQLite3, and a custom ORM. Under active development.</p>
 				<ul class="actions">
 					<li><a href="{{ site.tenbot_gh }}" class="button primary icon fa-github">Github</a></li>
 				</ul>
