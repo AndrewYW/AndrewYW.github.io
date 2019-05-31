@@ -78,7 +78,7 @@ title: Andrew Wang
 			</div>
 		</div>
 		<ul class="actions">
-			<li><a href="/andrewwang_resume.pdf" class="button icon fa-copy">Resume</a></li>
+			<li><a href="/andrew_wang_resume.pdf" class="button icon fa-copy">Resume</a></li>
 			<li><a href="{{ site.github_url }}" class="button primary icon fa-github">Github</a></li>
 			<li><a href="#two" class="button primary icon scrolly fa-arrow-down">Portfolio</a></li>
 		</ul>
